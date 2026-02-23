@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaReact } from 'react-icons/fa/index.esm.js';
 import { FaGithub } from 'react-icons/fa/index.esm.js';;
 import { FaEnvelope } from 'react-icons/fa/index.esm.js';;
 import { FaLinkedin } from 'react-icons/fa/index.esm.js';;
