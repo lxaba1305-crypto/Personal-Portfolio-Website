@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-    FaHtml5,
-    FaCss3,
-    FaJs,
-    FaGithub,
-    FaReact,
-    
-} from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa/index.esm.js';
 import { SiTailwindcss, SiCanva } from 'react-icons/si';
 
 function Skills() {
