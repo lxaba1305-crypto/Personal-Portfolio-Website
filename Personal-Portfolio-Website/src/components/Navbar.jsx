@@ -30,12 +30,12 @@ function Navbar() {
                     {/* LINKS */}
                     <div className="hidden md:flex space-x-6">
                         
-                        <a href=""  className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Home</a>
-                        <a href="" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">About</a>
-                        <a href="" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Skills</a>
-                        <a href="" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Projects</a>
-                        <a href="" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Journey</a>
-                        <a href="" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Contact</a>
+                        <a href="#hero"  className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Home</a>
+                        <a href="#about" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">About</a>
+                        <a href="#skills" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Skills</a>
+                        <a href="#projects" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Projects</a>
+                        <a href="#journey" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Journey</a>
+                        <a href="#contact" className="text-gray-300 hover:text-orange-500 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-orange-500 after:transition-all after:duration-300">Contact</a>
                     </div>
                 </div>
             </div>

@@ -46,45 +46,44 @@ function Skills() {
                             <p className="text-sm font-medium text-gray-300 tracking-wide">JavaScript</p>
                         </div>
 
-                        {/* Tools and Workflow */}
-                        <div className="bg-slate-800 rounded-xl p-8 border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-orange-500/20 hover:shadow-lg">
-                        <h3 className="text-xl font-semibold text-orange-500 mb-6">Tools & Workflow</h3>
-
-                        <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
-                            <FaGithub className="text-4xl mb-4 text-white" />
-                            <p className="text-sm font-medium text-gray-300 tracking-wide">GitHub</p>
                         </div>
+                </div>
 
-                        </div>
-                        </div>
+                <div className="bg-slate-800 rounded-xl p-8 border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-orange-500/20 hover:shadow-lg">
+                    <h3 className="text-xl font-semibold text-orange-500 mb-6">Tools & Workflow</h3>
 
-                        {/* Currently learning React and Tailwind CSS */}
-                        <div className="bg-slate-800 rounded-xl p-8 border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-orange-500/20 hover:shadow-lg">
-                        <h3 className="text-xl font-semibold text-orange-500 mb-2">Currently Learning</h3>
-                        <p className="text-sm text-gray-400 mb-4">Actively building projects while sharpening these skills</p>
+                    <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
+                        <FaGithub className="text-4xl mb-4 text-white" />
+                        <p className="text-sm font-medium text-gray-300 tracking-wide">GitHub</p>
+                    </div>
 
-                        <div className="grid md:grid-cols-2 gap-4">
+                </div>
 
-                            <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
-                                <FaReact className="text-4xl mb-2 text-cyan-400" />
-                                <p className="text-sm font-medium text-gray-300 tracking-wide">React</p>
-                            </div>
+                <div className="bg-slate-800 rounded-xl p-8 border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-orange-500/20 hover:shadow-lg">
+                <h3 className="text-xl font-semibold text-orange-500 mb-2">Currently Learning</h3>
+                <p className="text-sm text-gray-400 mb-4">Actively building projects while sharpening these skills</p>
 
-                            <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
-                                <SiTailwindcss className="text-4xl mb-2 text-teal-400" />
-                                <p className="text-sm font-medium text-gray-300 tracking-wide">Tailwind CSS</p>
-                            </div>
+                <div className="grid md:grid-cols-2 gap-4">
 
-                            <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
-                                <SiCanva className="text-4xl mb-2 text-green-400" />
-                                <p className="text-sm font-medium text-gray-300 tracking-wide">Canva</p>
-                            </div>
+                    <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
+                        <FaReact className="text-4xl mb-2 text-cyan-400" />
+                        <p className="text-sm font-medium text-gray-300 tracking-wide">React</p>
+                    </div>
 
-                        </div>
-                        </div>
+                    <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
+                        <SiTailwindcss className="text-4xl mb-2 text-teal-400" />
+                        <p className="text-sm font-medium text-gray-300 tracking-wide">Tailwind CSS</p>
+                    </div>
+
+                    <div className="flex flex-col items-center bg-slate-900 p-4 rounded-lg border border-white/10 transition duration-300 hover:border-orange-500 hover:shadow-md hover:shadow-orange-500/30 hover:scale-105">
+                        <SiCanva className="text-4xl mb-2 text-green-400" />
+                        <p className="text-sm font-medium text-gray-300 tracking-wide">Canva</p>
+                    </div>
+
+                </div>
+                </div>
 
             </div>
-        </div>
         </div>
 
     </section>

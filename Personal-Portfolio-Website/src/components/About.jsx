@@ -18,14 +18,14 @@ function About() {
                     </div>
 
                     {/* Content */}
-                    <div className="grid md:grid-cols-3 gap-12 items-center">
+                    <div className="grid md:grid-cols-2 gap-12 items-center">
 
                         {/* Image 1 - Left */}
 
                         <div className="flex justify-center">
                             <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl bg-gradient-to-br from-red-600 to-orange-500 p-1">
                                 <div className="w-full h-full bg-slate-900 rounded-2xl flex items-center justify-center text-gray-400">
-                                    <img src={aboutImage} alt="About Me" className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-gray-700 hover:scale-105 transition duration-300"></img>
+                                    <img src={aboutImage} alt="About Me" className="w-48 h-48 md:w-64 md:h-64 object-cover object-[center_10%] rounded-full border-4 border-gray-700 hover:scale-105 transition duration-300"></img>
                                 </div>
                             </div>
                         </div>
