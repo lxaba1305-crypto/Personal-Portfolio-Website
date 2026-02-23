@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa/index.esm.js';;
 
 function Contact() {
   return (
