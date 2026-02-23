@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../images/logo.png';
+import Logo from '../images/Logo.png';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ function Navbar() {
 
                 {/* Logo */}
                     <div>
-                        <img src={logo} alt="Logo" className="w-12 h-12 object-contain hover:scale-105 transition duration-300"></img>
+                        <img src={Logo} alt="Logo" className="w-12 h-12 object-contain hover:scale-105 transition duration-300"></img>
                     </div>
 
                     {/* LINKS */}
