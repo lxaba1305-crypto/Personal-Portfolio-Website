@@ -7,7 +7,7 @@ import clock from '../images/clock.png';
 function Projects() {
   return (
     <div>
-      <section className="bg-slate-800 py-20 px-6">
+      <section id="projects" className="bg-slate-800 py-20 px-6">
         <div className="max-w-6xl mx-auto">
 
             {/* Header */}

@@ -4,7 +4,7 @@ import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
 function Contact() {
   return (
     <div>
-      <section className="bg-slate-900 py-20 px-6">
+      <section id="contact" className="bg-slate-900 py-20 px-6">
         <div className="max-w-6xl mx-auto">
             
             {/* Header */}

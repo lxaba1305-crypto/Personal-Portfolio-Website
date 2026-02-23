@@ -12,7 +12,7 @@ import { SiTailwindcss, SiCanva } from 'react-icons/si';
 function Skills() {
   return (
     <div>
-       <section className="bg-slate-900 py-20 px-6">
+       <section id="skills" className="bg-slate-900 py-20 px-6">
         <div className="max-w-6xl mx-auto">
 
             {/* Header  */}

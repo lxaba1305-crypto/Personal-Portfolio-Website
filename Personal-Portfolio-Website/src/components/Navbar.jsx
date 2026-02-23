@@ -43,12 +43,12 @@ function Navbar() {
    {isOpen && (
          <div id="" className="md:hidden flex flex-col items-center px-4 space-y-4 py-4 bg-slate-900/90 backdrop-blur-md border-b border-white/10 transition-all duration-300 ease-out">
             
-                <a href="" className="block text-gray-300 hover:text-orange-500 transition">Home</a>
-                <a href="" className="block text-gray-300 hover:text-orange-500 transition">About</a>
-                <a href="" className="block text-gray-300 hover:text-orange-500 transition">Skills</a>
-                <a href="" className="block text-gray-300 hover:text-orange-500 transition">Projects</a>
-                <a href="" className="block text-gray-300 hover:text-orange-500 transition">Journey</a>
-                <a href="" className="block text-gray-300 hover:text-orange-500 transition">Contact</a>
+                <a href="#hero" className="block text-gray-300 hover:text-orange-500 transition">Home</a>
+                <a href="#about" className="block text-gray-300 hover:text-orange-500 transition">About</a>
+                <a href="#skills" className="block text-gray-300 hover:text-orange-500 transition">Skills</a>
+                <a href="#projects" className="block text-gray-300 hover:text-orange-500 transition">Projects</a>
+                <a href="#journey" className="block text-gray-300 hover:text-orange-500 transition">Journey</a>
+                <a href="#contact" className="block text-gray-300 hover:text-orange-500 transition">Contact</a>
             </div>
             )}
 

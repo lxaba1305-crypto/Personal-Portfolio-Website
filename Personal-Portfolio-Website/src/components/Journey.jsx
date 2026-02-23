@@ -3,7 +3,7 @@ import React from 'react';
 function Journey() {
   return (
     <div>
-      <section className="bg-slate-900 py-20 px-6">
+      <section id="journey" className="bg-slate-900 py-20 px-6">
         <div className="max-w-5xl mx-auto">
 
             {/* Header */}
